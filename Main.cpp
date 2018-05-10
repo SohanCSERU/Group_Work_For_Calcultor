@@ -36,7 +36,7 @@ int main()
 	}
 	else if(N==4)
 	{
-	 	cout<<"The Modulas is: "<<modulas(op1,op2)<<endl;	
+	 	cout<<"The Modulas is: "<<module(op1,op2)<<endl;	
 	}
 	else(N==5)
 	{
