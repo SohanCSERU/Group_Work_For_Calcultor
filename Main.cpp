@@ -22,7 +22,6 @@ int main()
      cout<<"Enter Your Number which you want to Operate: "<<endl;
      cin>>op1>>op2;
 
-<<<<<<< HEAD
 	if(N==1)
 	{
         cout<<"The sum is: "<<sum(op1,op2)<<endl;
@@ -39,35 +38,10 @@ int main()
 	{
 	 	cout<<"The Modulas is: "<<modulas(op1,op2)<<endl;	
 	}
-	else
-
+	else(N==5)
 	{
 		break;
 	}
-=======
-        if(N==1)
-        {
-            cout<<"The sum is: "<<sum(op1,op2)<<endl;
-        }
-        else if(N==2)
-        {
-            cout<<"The Subtraction is: "<<subtract(op1,op2)<<endl;
-        }
-        else if(N==3)
-        {
-            cout<<"The multiply is: "<<multiple(op1,op2)<<endl;
-        }
-        else if(N==4)
-        {
-            cout<<"The Modulas is: "<<module(op1,op2)<<endl;
-        }
-<<<<<<< HEAD
->>>>>>> a5c5673709694a6c469dcced1fe29c57116ac548
-=======
-        //this is Maksudul
->>>>>>> fbb2c58ed9de954ffe67b71568f20aa00e4cb176
-
-    }
 	//Here i am (Nahid Hasan Raju)
     return 0;
 }
