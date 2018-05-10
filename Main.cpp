@@ -61,7 +61,11 @@ int main()
         {
             cout<<"The Modulas is: "<<module(op1,op2)<<endl;
         }
+<<<<<<< HEAD
 >>>>>>> a5c5673709694a6c469dcced1fe29c57116ac548
+=======
+        //this is Maksudul
+>>>>>>> fbb2c58ed9de954ffe67b71568f20aa00e4cb176
 
     }
 	//Here i am (Nahid Hasan Raju)
