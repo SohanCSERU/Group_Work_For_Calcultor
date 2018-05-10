@@ -1,6 +1,6 @@
-#Lab_Work
-**Here is our Lab Work colaborat by** <br />
-##**_CONTRIBUTOR's_**<br />
+# Lab_Work <br />
+## **Here is our Lab Work,collaborated by** <br />
+### **_CONTRIBUTOR's_**<br />
 1.[Sohanur Rahman](https://github.com/SohanCSERU)<br />
 2.[Maksudul Hasan](https://github.com/maksudul24)<br />
 3.[Nahid Hasan Raju](https://github.com/rajunahidhasan0)<br />
