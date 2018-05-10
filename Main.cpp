@@ -1,6 +1,8 @@
 #include <iostream>
 #include "multiple.h"
 #include "subtract.h"
+#include "modulas.h"
+#include "sum.h"
 using namespace std;
 
 int main()
@@ -34,6 +36,7 @@ int main()
 	else if(N==4)
 	{
 	 	cout<<"The Modulas is: "<<modulas(op1,op2)<<endl;	
-	}	
+	}
+
 	return 0;
 }
