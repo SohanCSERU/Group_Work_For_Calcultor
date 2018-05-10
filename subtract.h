@@ -1,7 +1,13 @@
-int subtract(int number1,int number2){
+int subtract(int number1,int number2)
+{
 
-    if(number1>number2) return number1-number2;
-    else{
+    if(number1>number2)
+    {
+     return number1-number2;
+    }
+    
+    else
+    {
         return number2-number1;
     }
 }
