@@ -19,6 +19,8 @@ int main()
 		cout << "4. Modulas\n";
 		cout << "5.Quit Operation.\n";
       cin>>N;
+      if(N==5)
+      	break;
      cout<<"Enter Your Number which you want to Operate: "<<endl;
      cin>>op1>>op2;
 
@@ -37,10 +39,6 @@ int main()
 		else if(N==4)
 		{
 		 	cout<<"The Modulas is: "<<module(op1,op2)<<endl;	
-		}
-		else if(N==5)
-		{
-			break;
 		}
    }
 	//Here i am (Nahid Hasan Raju)
