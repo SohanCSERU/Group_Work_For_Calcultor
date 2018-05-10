@@ -21,22 +21,23 @@ int main()
      cout<<"Enter Your Number which you want to Operate: "<<endl;
      cin>>op1>>op2;
 
-	if(N==1)
-	{
-        cout<<"The sum is: "<<sum(op1,op2)<<endl;
-	}
-	else if(N==2)
-	{
-	 	cout<<"The Subtraction is: "<<subtract(op1,op2)<<endl;	
-	}
-	else if(N==3)
-	{
-	 	cout<<"The multiply is: "<<multiple(op1,op2)<<endl;	
-	}
-	else if(N==4)
-	{
-	 	cout<<"The Modulas is: "<<modulas(op1,op2)<<endl;	
-	}
+        if(N==1)
+        {
+            cout<<"The sum is: "<<sum(op1,op2)<<endl;
+        }
+        else if(N==2)
+        {
+            cout<<"The Subtraction is: "<<subtract(op1,op2)<<endl;
+        }
+        else if(N==3)
+        {
+            cout<<"The multiply is: "<<multiple(op1,op2)<<endl;
+        }
+        else if(N==4)
+        {
+            cout<<"The Modulas is: "<<module(op1,op2)<<endl;
+        }
 
-	return 0;
+    }
+    return 0;
 }
