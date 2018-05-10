@@ -17,7 +17,7 @@ int main()
 		cout << "2. Subtract\n";
 		cout << "3. Multiply\n";
 		cout << "4. Modulas\n";
-		cout << "5.Quit Operation.";
+		cout << "5.Quit Operation.\n";
       cin>>N;
      cout<<"Enter Your Number which you want to Operate: "<<endl;
      cin>>op1>>op2;
@@ -38,7 +38,7 @@ int main()
 		{
 		 	cout<<"The Modulas is: "<<module(op1,op2)<<endl;	
 		}
-		else(N==5)
+		else if(N==5)
 		{
 			break;
 		}
