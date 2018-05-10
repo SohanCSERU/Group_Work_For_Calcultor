@@ -17,31 +17,32 @@ int main()
 		cout << "2. Subtract\n";
 		cout << "3. Multiply\n";
 		cout << "4. Modulas\n";
-		cout << "5.Quit Operation."
+		cout << "5.Quit Operation.";
       cin>>N;
      cout<<"Enter Your Number which you want to Operate: "<<endl;
      cin>>op1>>op2;
 
-	if(N==1)
-	{
-        cout<<"The sum is: "<<sum(op1,op2)<<endl;
-	}
-	else if(N==2)
-	{
-	 	cout<<"The Subtraction is: "<<subtract(op1,op2)<<endl;	
-	}
-	else if(N==3)
-	{
-	 	cout<<"The multiply is: "<<multiple(op1,op2)<<endl;	
-	}
-	else if(N==4)
-	{
-	 	cout<<"The Modulas is: "<<module(op1,op2)<<endl;	
-	}
-	else(N==5)
-	{
-		break;
-	}
+		if(N==1)
+		{
+	        cout<<"The sum is: "<<sum(op1,op2)<<endl;
+		}
+		else if(N==2)
+		{
+		 	cout<<"The Subtraction is: "<<subtract(op1,op2)<<endl;	
+		}
+		else if(N==3)
+		{
+		 	cout<<"The multiply is: "<<multiple(op1,op2)<<endl;	
+		}
+		else if(N==4)
+		{
+		 	cout<<"The Modulas is: "<<module(op1,op2)<<endl;	
+		}
+		else(N==5)
+		{
+			break;
+		}
+   }
 	//Here i am (Nahid Hasan Raju)
     return 0;
 }
