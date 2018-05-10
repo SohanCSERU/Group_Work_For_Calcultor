@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	int option,T,op1,op2,N,cnt=0,abs=0;
+	int option,T,op1,op2,N;
 	cout<<"How Many operation Do you Want: "<<endl;
 	cin>>T;
 	while(T--)
@@ -17,6 +17,7 @@ int main()
 		cout << "2. Subtract\n";
 		cout << "3. Multiply\n";
 		cout << "4. Modulas\n";
+		cout << "5.Quit Operation."
       cin>>N;
      cout<<"Enter Your Number which you want to Operate: "<<endl;
      cin>>op1>>op2;
@@ -36,6 +37,11 @@ int main()
 	else if(N==4)
 	{
 	 	cout<<"The Modulas is: "<<modulas(op1,op2)<<endl;	
+	}
+	else
+
+	{
+		break;
 	}
 
 	return 0;
